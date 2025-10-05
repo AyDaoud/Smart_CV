@@ -45,6 +45,8 @@ node -v
 npm -v
 git --version
 
+---
+
 ## Project Structure
 
 
@@ -59,7 +61,9 @@ Smart_CV/
 │  ├─ pages/ components/ utils/
 │  ├─ package.json  tsconfig.json  tailwind.config.js
 │  └─ .env.local (optional)
-└─ README.md 
+└─ README.md
+
+---
 
 ## Environment Variables
 
@@ -70,6 +74,7 @@ SUPABASE_KEY=your_service_role_key   # service_role only on server
 
 
 NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
+---
 
 ## Install & Run (Windows)
 cd .\backend
