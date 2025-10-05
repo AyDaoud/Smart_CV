@@ -1,6 +1,6 @@
 # Smart_CV
 
-Tailor any CV to a given job description.
+modify any CV to a given job description.
 
 - **Backend:** FastAPI (Python)
 - **Frontend:** Next.js + TypeScript
