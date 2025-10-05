@@ -1,0 +1,28 @@
+@'
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+backend/venv/
+backend/.env
+backend/.env.*
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editors
+*.log
+*.DS_Store
+Thumbs.db
+.vscode/
+'@ | Set-Content -Encoding utf8 ".gitignore"

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pdfminer.six
+python-docx
+spacy
+httpx
+supabase
+pydantic
