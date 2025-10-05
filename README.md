@@ -45,6 +45,7 @@ node -v
 npm -v
 git --version
 
+## Project Structure
 
 
 Smart_CV/
@@ -60,6 +61,7 @@ Smart_CV/
 │  └─ .env.local (optional)
 └─ README.md 
 
+## Environment Variables
 
 GOOGLE_API_KEY=your_gemini_api_key
 SUPABASE_URL=https://YOUR-PROJECT.supabase.co
@@ -69,7 +71,7 @@ SUPABASE_KEY=your_service_role_key   # service_role only on server
 
 NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
 
-
+## Install & Run (Windows)
 cd .\backend
 
 # Create & activate virtual env
